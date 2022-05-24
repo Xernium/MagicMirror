@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.fivepb.magicmirror.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "magicmirror.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ClientLoginListenerMixin",
+    "ClientConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
